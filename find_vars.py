@@ -24,6 +24,5 @@ def find_vars(msg, sep, sep_end=None):
             found_list.append(found_var) # add to list
         t = found_end + len(sep_end)
         # print("Variable", i+1, "|", found_var)
-    from contextlib import redirect_stdout 
-    with redirect_stdout(None): print(i)
+        if i: pass
     return found_list # return list
